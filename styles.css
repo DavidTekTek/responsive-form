@@ -63,6 +63,10 @@ body {
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: hsl(154, 43%, 63%);
+}
+
 
 .shadow {
         display: flex;
