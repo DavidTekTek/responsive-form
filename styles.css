@@ -79,12 +79,15 @@ body {
         border-radius: .5rem;
         box-shadow: 5px 10px 18px #888888;
         font-size: 16px;
-        font-style: normal;
         outline: none;
         border: none;
         cursor: pointer;
         margin-top: 2rem;
         margin-bottom: 2rem;
+}
+
+.plain span {
+    font-weight: lighter;
 }
 
 .join-form {
@@ -128,6 +131,7 @@ body {
 
 .accent {
     color: var(--Red-Primary);
+    font-weight: bolder;
 }
 
 @media (max-width: 400px) {
